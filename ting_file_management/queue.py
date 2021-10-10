@@ -10,7 +10,7 @@ class Queue:
 
     def dequeue(self):
         if not len(self.data):
-            raise IndexError
+            None
         return self.data.pop(0)
 
     def search(self, index):
