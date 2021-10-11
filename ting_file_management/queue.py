@@ -9,8 +9,6 @@ class Queue:
         self.data.append(value)
 
     def dequeue(self):
-        if not len(self.data):
-            None
         return self.data.pop(0)
 
     def search(self, index):
